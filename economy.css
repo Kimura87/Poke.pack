@@ -1,0 +1,8 @@
+.sell-button {
+  width: 100%; margin-top: 11px; padding: 9px 10px;
+  border: 1px solid var(--rarity-color, var(--line)); border-radius: 8px;
+  background: rgba(255,255,255,.035); color: var(--rarity-color, #fff);
+  font-size: 10px; font-weight: 800; cursor: pointer; transition: .2s;
+}
+.sell-button:hover { background: var(--rarity-color, #fff); color: #09090e; box-shadow: 0 0 18px var(--rarity-glow, transparent); }
+
