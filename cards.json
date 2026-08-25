@@ -1,0 +1,1101 @@
+[
+  {
+    "id": 1,
+    "name": "Weedle",
+    "number": "001/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-001-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 2,
+    "name": "Kakuna",
+    "number": "002/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-002-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 3,
+    "name": "Beedrill ex",
+    "number": "003/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Dupla",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-003-deck-certo.webp",
+    "weight": 7
+  },
+  {
+    "id": 4,
+    "name": "Carnivine",
+    "number": "004/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-004-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 5,
+    "name": "Chespin",
+    "number": "005/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-005-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 6,
+    "name": "Quilladin",
+    "number": "006/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-006-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 7,
+    "name": "Chesnaught",
+    "number": "007/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-007-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 8,
+    "name": "Vulpix",
+    "number": "008/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-008-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 9,
+    "name": "Ninetales",
+    "number": "009/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-009-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 10,
+    "name": "Ho-Oh",
+    "number": "010/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-010-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 11,
+    "name": "Fennekin",
+    "number": "011/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-011-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 12,
+    "name": "Braixen",
+    "number": "012/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-012-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 13,
+    "name": "Delphox",
+    "number": "013/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-013-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 14,
+    "name": "Litleo",
+    "number": "014/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-014-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 15,
+    "name": "Mega Pyroar ex",
+    "number": "015/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Dupla",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-015-deck-certo.webp",
+    "weight": 7
+  },
+  {
+    "id": 16,
+    "name": "Remoraid",
+    "number": "016/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-016-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 17,
+    "name": "Octillery",
+    "number": "017/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-017-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 18,
+    "name": "Delibird",
+    "number": "018/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-018-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 19,
+    "name": "Keldeo",
+    "number": "019/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-019-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 20,
+    "name": "Froakie",
+    "number": "020/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-020-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 21,
+    "name": "Frogadier",
+    "number": "021/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-021-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 22,
+    "name": "Mega Greninja ex",
+    "number": "022/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Dupla",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-022-deck-certo.webp",
+    "weight": 7
+  },
+  {
+    "id": 23,
+    "name": "Bergmite",
+    "number": "023/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-023-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 24,
+    "name": "Avalugg",
+    "number": "024/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-024-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 25,
+    "name": "Wimpod",
+    "number": "025/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-025-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 26,
+    "name": "Golisopod",
+    "number": "026/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-026-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 27,
+    "name": "Mareep",
+    "number": "027/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-027-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 28,
+    "name": "Flaaffy",
+    "number": "028/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-028-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 29,
+    "name": "Ampharos",
+    "number": "029/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-029-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 30,
+    "name": "Emolga",
+    "number": "030/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-030-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 31,
+    "name": "Deoxys",
+    "number": "031/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-031-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 32,
+    "name": "Deoxys",
+    "number": "032/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-032-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 33,
+    "name": "Deoxys",
+    "number": "033/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-033-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 34,
+    "name": "Deoxys",
+    "number": "034/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-034-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 35,
+    "name": "Mega Floette ex",
+    "number": "035/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Dupla",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-035-deck-certo.webp",
+    "weight": 7
+  },
+  {
+    "id": 36,
+    "name": "Espurr",
+    "number": "036/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-036-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 37,
+    "name": "Meowstic",
+    "number": "037/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-037-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 38,
+    "name": "Phantump",
+    "number": "038/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-038-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 39,
+    "name": "Trevenant",
+    "number": "039/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-039-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 40,
+    "name": "Pumpkaboo",
+    "number": "040/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-040-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 41,
+    "name": "Gourgeist ex",
+    "number": "041/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Dupla",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-041-deck-certo.webp",
+    "weight": 7
+  },
+  {
+    "id": 42,
+    "name": "Xerneas",
+    "number": "042/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-042-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 43,
+    "name": "Sudowoodo",
+    "number": "043/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-043-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 44,
+    "name": "Phanpy",
+    "number": "044/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-044-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 45,
+    "name": "Donphan",
+    "number": "045/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-045-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 46,
+    "name": "Baltoy",
+    "number": "046/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-046-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 47,
+    "name": "Claydol",
+    "number": "047/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-047-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 48,
+    "name": "Mega Gallade ex",
+    "number": "048/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Dupla",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-048-deck-certo.webp",
+    "weight": 7
+  },
+  {
+    "id": 49,
+    "name": "Zubat",
+    "number": "049/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-049-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 50,
+    "name": "Golbat",
+    "number": "050/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-050-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 51,
+    "name": "Crobat",
+    "number": "051/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-051-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 52,
+    "name": "Qwilfish",
+    "number": "052/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-052-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 53,
+    "name": "Stunky",
+    "number": "053/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-053-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 54,
+    "name": "Skuntank",
+    "number": "054/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-054-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 55,
+    "name": "Krookodile ex",
+    "number": "055/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Dupla",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-055-deck-certo.webp",
+    "weight": 7
+  },
+  {
+    "id": 56,
+    "name": "Trubbish",
+    "number": "056/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-056-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 57,
+    "name": "Garbodor",
+    "number": "057/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-057-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 58,
+    "name": "Skrelp",
+    "number": "058/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-058-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 59,
+    "name": "Beldum",
+    "number": "059/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-059-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 60,
+    "name": "Metang",
+    "number": "060/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-060-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 61,
+    "name": "Metagross",
+    "number": "061/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-061-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 62,
+    "name": "Ferroseed",
+    "number": "062/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-062-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 63,
+    "name": "Ferrothorn",
+    "number": "063/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-063-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 64,
+    "name": "Cobalion ex",
+    "number": "064/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Dupla",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-064-deck-certo.webp",
+    "weight": 7
+  },
+  {
+    "id": 65,
+    "name": "Mega Dragalge ex",
+    "number": "065/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Dupla",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-065-deck-certo.webp",
+    "weight": 7
+  },
+  {
+    "id": 66,
+    "name": "Goomy",
+    "number": "066/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-066-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 67,
+    "name": "Sliggoo",
+    "number": "067/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-067-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 68,
+    "name": "Goodra",
+    "number": "068/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-068-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 69,
+    "name": "Tauros",
+    "number": "069/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-069-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 70,
+    "name": "Patrat",
+    "number": "070/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-070-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 71,
+    "name": "Watchog",
+    "number": "071/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-071-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 72,
+    "name": "Minccino",
+    "number": "072/086",
+    "set": "Caos Ascendente",
+    "rarity": "Comum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-072-deck-certo.webp",
+    "weight": 50
+  },
+  {
+    "id": 73,
+    "name": "Cinccino ex",
+    "number": "073/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Dupla",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-073-deck-certo.webp",
+    "weight": 7
+  },
+  {
+    "id": 74,
+    "name": "Apólice de Adversidade",
+    "number": "074/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-074-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 75,
+    "name": "Floette Ange",
+    "number": "075/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-075-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 76,
+    "name": "Tranquilidade do AZ",
+    "number": "076/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-076-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 77,
+    "name": "Emma",
+    "number": "077/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-077-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 78,
+    "name": "Rede Grande de Arrasto",
+    "number": "078/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-078-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 79,
+    "name": "Philippe",
+    "number": "079/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-079-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 80,
+    "name": "Torre Prisma",
+    "number": "080/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-080-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 81,
+    "name": "Show da Roxie",
+    "number": "081/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-081-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 82,
+    "name": "Cartão Vermelho Especial",
+    "number": "082/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-082-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 83,
+    "name": "Tomo da Transformação",
+    "number": "083/086",
+    "set": "Caos Ascendente",
+    "rarity": "Incomum",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-083-deck-certo.webp",
+    "weight": 25
+  },
+  {
+    "id": 84,
+    "name": "Energia A Borbulhante",
+    "number": "084/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-084-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 85,
+    "name": "Energia M Magnética",
+    "number": "085/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-085-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 86,
+    "name": "Energia F Nitro",
+    "number": "086/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-086-deck-certo.webp",
+    "weight": 15
+  },
+  {
+    "id": 87,
+    "name": "Chespin",
+    "number": "087/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-087-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 88,
+    "name": "Froakie",
+    "number": "088/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-088-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 89,
+    "name": "Frogadier",
+    "number": "089/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-089-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 90,
+    "name": "Ampharos",
+    "number": "090/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-090-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 91,
+    "name": "Xerneas",
+    "number": "091/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-091-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 92,
+    "name": "Claydol",
+    "number": "092/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-092-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 93,
+    "name": "Crobat",
+    "number": "093/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-093-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 94,
+    "name": "Metang",
+    "number": "094/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-094-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 95,
+    "name": "Sliggoo",
+    "number": "095/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-095-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 96,
+    "name": "Tauros",
+    "number": "096/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-096-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 97,
+    "name": "Watchog",
+    "number": "097/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-097-deck-certo.webp",
+    "weight": 2.5
+  },
+  {
+    "id": 98,
+    "name": "Beedrill ex",
+    "number": "098/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-098-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 99,
+    "name": "Mega Pyroar ex",
+    "number": "099/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-099-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 100,
+    "name": "Mega Greninja ex",
+    "number": "100/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-100-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 101,
+    "name": "Mega Floette ex",
+    "number": "101/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-101-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 102,
+    "name": "Gourgeist ex",
+    "number": "102/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-102-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 103,
+    "name": "Cobalion ex",
+    "number": "103/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-103-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 104,
+    "name": "Mega Dragalge ex",
+    "number": "104/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-104-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 105,
+    "name": "Cinccino ex",
+    "number": "105/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-105-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 106,
+    "name": "Tranquilidade do AZ",
+    "number": "106/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-106-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 107,
+    "name": "Emma",
+    "number": "107/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-107-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 108,
+    "name": "Recuperação de Energia",
+    "number": "108/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-108-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 109,
+    "name": "Sorvetão Jumbo",
+    "number": "109/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-109-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 110,
+    "name": "Philippe",
+    "number": "110/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-110-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 111,
+    "name": "Torre Prisma",
+    "number": "111/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-111-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 112,
+    "name": "Show da Roxie",
+    "number": "112/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-112-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 113,
+    "name": "Cartão Vermelho Especial",
+    "number": "113/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-113-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 114,
+    "name": "Praia de Surfista",
+    "number": "114/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-114-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 115,
+    "name": "Sucateador de Ferramenta",
+    "number": "115/086",
+    "set": "Caos Ascendente",
+    "rarity": "Rara Ultra",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-115-deck-certo.webp",
+    "weight": 1.5
+  },
+  {
+    "id": 116,
+    "name": "Mega Greninja ex",
+    "number": "116/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-116-deck-certo.webp",
+    "weight": 0.5
+  },
+  {
+    "id": 117,
+    "name": "Mega Floette ex",
+    "number": "117/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-117-deck-certo.webp",
+    "weight": 0.5
+  },
+  {
+    "id": 118,
+    "name": "Mega Dragalge ex",
+    "number": "118/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-118-deck-certo.webp",
+    "weight": 0.5
+  },
+  {
+    "id": 119,
+    "name": "Cinccino ex",
+    "number": "119/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-119-deck-certo.webp",
+    "weight": 0.5
+  },
+  {
+    "id": 120,
+    "name": "Tranquilidade do AZ",
+    "number": "120/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-120-deck-certo.webp",
+    "weight": 0.5
+  },
+  {
+    "id": 121,
+    "name": "Show da Roxie",
+    "number": "121/086",
+    "set": "Caos Ascendente",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-121-deck-certo.webp",
+    "weight": 0.5
+  },
+  {
+    "id": 122,
+    "name": "Mega Greninja ex",
+    "number": "122/086",
+    "set": "Caos Ascendente",
+    "rarity": "Mega Attack Rare",
+    "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-122-deck-certo.webp",
+    "weight": 0.1
+  }
+]
+
