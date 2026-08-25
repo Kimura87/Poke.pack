@@ -1,0 +1,16 @@
+.rarity-double {
+  --rarity-color: #49ddff;
+  --rarity-glow: rgba(73, 221, 255, 0.42);
+}
+
+.rarity-mega {
+  --rarity-color: #ffdf63;
+  --rarity-glow: rgba(255, 87, 189, 0.75);
+  animation: megaGlow 1.25s infinite alternate;
+}
+
+@keyframes megaGlow {
+  from { filter: hue-rotate(-12deg); box-shadow: 0 0 38px #ff4fb7; }
+  to { filter: hue-rotate(18deg) brightness(1.18); box-shadow: 0 0 72px #8b5cff; }
+}
+
