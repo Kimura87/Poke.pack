@@ -6,7 +6,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-001-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-002-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 3,
@@ -24,7 +28,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Dupla",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-003-deck-certo.webp",
-    "weight": 7
+    "weight": 7,
+    "setSlug": "caos-ascendente",
+    "sellValue": 5
   },
   {
     "id": 4,
@@ -33,7 +39,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-004-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 5,
@@ -42,7 +50,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-005-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 6,
@@ -51,7 +61,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-006-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 7,
@@ -60,7 +72,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-007-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 8,
@@ -69,7 +83,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-008-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 9,
@@ -78,7 +94,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-009-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 10,
@@ -87,7 +105,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-010-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 11,
@@ -96,7 +116,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-011-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 12,
@@ -105,7 +127,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-012-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 13,
@@ -114,7 +138,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-013-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 14,
@@ -123,7 +149,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-014-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 15,
@@ -132,7 +160,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Dupla",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-015-deck-certo.webp",
-    "weight": 7
+    "weight": 7,
+    "setSlug": "caos-ascendente",
+    "sellValue": 5
   },
   {
     "id": 16,
@@ -141,7 +171,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-016-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 17,
@@ -150,7 +182,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-017-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 18,
@@ -159,7 +193,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-018-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 19,
@@ -168,7 +204,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-019-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 20,
@@ -177,7 +215,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-020-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 21,
@@ -186,7 +226,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-021-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 22,
@@ -195,7 +237,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Dupla",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-022-deck-certo.webp",
-    "weight": 7
+    "weight": 7,
+    "setSlug": "caos-ascendente",
+    "sellValue": 5
   },
   {
     "id": 23,
@@ -204,7 +248,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-023-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 24,
@@ -213,7 +259,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-024-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 25,
@@ -222,7 +270,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-025-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 26,
@@ -231,7 +281,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-026-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 27,
@@ -240,7 +292,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-027-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 28,
@@ -249,7 +303,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-028-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 29,
@@ -258,7 +314,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-029-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 30,
@@ -267,7 +325,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-030-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 31,
@@ -276,7 +336,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-031-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 32,
@@ -285,7 +347,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-032-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 33,
@@ -294,7 +358,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-033-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 34,
@@ -303,7 +369,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-034-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 35,
@@ -312,7 +380,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Dupla",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-035-deck-certo.webp",
-    "weight": 7
+    "weight": 7,
+    "setSlug": "caos-ascendente",
+    "sellValue": 5
   },
   {
     "id": 36,
@@ -321,7 +391,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-036-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 37,
@@ -330,7 +402,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-037-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 38,
@@ -339,7 +413,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-038-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 39,
@@ -348,7 +424,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-039-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 40,
@@ -357,7 +435,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-040-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 41,
@@ -366,7 +446,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Dupla",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-041-deck-certo.webp",
-    "weight": 7
+    "weight": 7,
+    "setSlug": "caos-ascendente",
+    "sellValue": 5
   },
   {
     "id": 42,
@@ -375,7 +457,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-042-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 43,
@@ -384,7 +468,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-043-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 44,
@@ -393,7 +479,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-044-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 45,
@@ -402,7 +490,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-045-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 46,
@@ -411,7 +501,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-046-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 47,
@@ -420,7 +512,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-047-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 48,
@@ -429,7 +523,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Dupla",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-048-deck-certo.webp",
-    "weight": 7
+    "weight": 7,
+    "setSlug": "caos-ascendente",
+    "sellValue": 5
   },
   {
     "id": 49,
@@ -438,7 +534,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-049-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 50,
@@ -447,7 +545,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-050-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 51,
@@ -456,7 +556,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-051-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 52,
@@ -465,7 +567,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-052-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 53,
@@ -474,7 +578,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-053-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 54,
@@ -483,7 +589,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-054-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 55,
@@ -492,7 +600,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Dupla",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-055-deck-certo.webp",
-    "weight": 7
+    "weight": 7,
+    "setSlug": "caos-ascendente",
+    "sellValue": 5
   },
   {
     "id": 56,
@@ -501,7 +611,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-056-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 57,
@@ -510,7 +622,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-057-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 58,
@@ -519,7 +633,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-058-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 59,
@@ -528,7 +644,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-059-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 60,
@@ -537,7 +655,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-060-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 61,
@@ -546,7 +666,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-061-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 62,
@@ -555,7 +677,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-062-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 63,
@@ -564,7 +688,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-063-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 64,
@@ -573,7 +699,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Dupla",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-064-deck-certo.webp",
-    "weight": 7
+    "weight": 7,
+    "setSlug": "caos-ascendente",
+    "sellValue": 5
   },
   {
     "id": 65,
@@ -582,7 +710,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Dupla",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-065-deck-certo.webp",
-    "weight": 7
+    "weight": 7,
+    "setSlug": "caos-ascendente",
+    "sellValue": 5
   },
   {
     "id": 66,
@@ -591,7 +721,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-066-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 67,
@@ -600,7 +732,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-067-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 68,
@@ -609,7 +743,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-068-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 69,
@@ -618,7 +754,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-069-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 70,
@@ -627,7 +765,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-070-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 71,
@@ -636,7 +776,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-071-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 72,
@@ -645,7 +787,9 @@
     "set": "Caos Ascendente",
     "rarity": "Comum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-072-deck-certo.webp",
-    "weight": 50
+    "weight": 50,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 73,
@@ -654,7 +798,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Dupla",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-073-deck-certo.webp",
-    "weight": 7
+    "weight": 7,
+    "setSlug": "caos-ascendente",
+    "sellValue": 5
   },
   {
     "id": 74,
@@ -663,7 +809,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-074-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 75,
@@ -672,7 +820,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-075-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 76,
@@ -681,7 +831,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-076-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 77,
@@ -690,7 +842,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-077-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 78,
@@ -699,7 +853,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-078-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 79,
@@ -708,7 +864,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-079-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 80,
@@ -717,7 +875,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-080-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 81,
@@ -726,7 +886,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-081-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 82,
@@ -735,7 +897,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-082-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 83,
@@ -744,7 +908,9 @@
     "set": "Caos Ascendente",
     "rarity": "Incomum",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-083-deck-certo.webp",
-    "weight": 25
+    "weight": 25,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
   },
   {
     "id": 84,
@@ -753,7 +919,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-084-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 85,
@@ -762,7 +930,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-085-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 86,
@@ -771,7 +941,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-086-deck-certo.webp",
-    "weight": 15
+    "weight": 15,
+    "setSlug": "caos-ascendente",
+    "sellValue": 3
   },
   {
     "id": 87,
@@ -780,7 +952,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-087-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 88,
@@ -789,7 +963,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-088-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 89,
@@ -798,7 +974,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-089-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 90,
@@ -807,7 +985,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-090-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 91,
@@ -816,7 +996,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-091-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 92,
@@ -825,7 +1007,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-092-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 93,
@@ -834,7 +1018,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-093-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 94,
@@ -843,7 +1029,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-094-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 95,
@@ -852,7 +1040,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-095-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 96,
@@ -861,7 +1051,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-096-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 97,
@@ -870,7 +1062,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-097-deck-certo.webp",
-    "weight": 2.5
+    "weight": 2.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 7
   },
   {
     "id": 98,
@@ -879,7 +1073,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-098-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 99,
@@ -888,7 +1084,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-099-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 100,
@@ -897,7 +1095,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-100-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 101,
@@ -906,7 +1106,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-101-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 102,
@@ -915,7 +1117,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-102-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 103,
@@ -924,7 +1128,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-103-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 104,
@@ -933,7 +1139,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-104-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 105,
@@ -942,7 +1150,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-105-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 106,
@@ -951,7 +1161,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-106-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 107,
@@ -960,7 +1172,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-107-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 108,
@@ -969,7 +1183,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-108-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 109,
@@ -978,7 +1194,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-109-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 110,
@@ -987,7 +1205,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-110-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 111,
@@ -996,7 +1216,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-111-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 112,
@@ -1005,7 +1227,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-112-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 113,
@@ -1014,7 +1238,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-113-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 114,
@@ -1023,7 +1249,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-114-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 115,
@@ -1032,7 +1260,9 @@
     "set": "Caos Ascendente",
     "rarity": "Rara Ultra",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-115-deck-certo.webp",
-    "weight": 1.5
+    "weight": 1.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 10
   },
   {
     "id": 116,
@@ -1041,7 +1271,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara Especial",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-116-deck-certo.webp",
-    "weight": 0.5
+    "weight": 0.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 18
   },
   {
     "id": 117,
@@ -1050,7 +1282,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara Especial",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-117-deck-certo.webp",
-    "weight": 0.5
+    "weight": 0.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 18
   },
   {
     "id": 118,
@@ -1059,7 +1293,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara Especial",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-118-deck-certo.webp",
-    "weight": 0.5
+    "weight": 0.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 18
   },
   {
     "id": 119,
@@ -1068,7 +1304,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara Especial",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-119-deck-certo.webp",
-    "weight": 0.5
+    "weight": 0.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 18
   },
   {
     "id": 120,
@@ -1077,7 +1315,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara Especial",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-120-deck-certo.webp",
-    "weight": 0.5
+    "weight": 0.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 18
   },
   {
     "id": 121,
@@ -1086,7 +1326,9 @@
     "set": "Caos Ascendente",
     "rarity": "Ilustração Rara Especial",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-121-deck-certo.webp",
-    "weight": 0.5
+    "weight": 0.5,
+    "setSlug": "caos-ascendente",
+    "sellValue": 18
   },
   {
     "id": 122,
@@ -1095,7 +1337,1328 @@
     "set": "Caos Ascendente",
     "rarity": "Mega Attack Rare",
     "image": "https://deckcerto.com/wp-content/uploads/2026/05/carta-caos-ascendente-122-deck-certo.webp",
-    "weight": 0.1
+    "weight": 0.1,
+    "setSlug": "caos-ascendente",
+    "sellValue": 1
+  },
+  {
+    "id": 1001,
+    "name": "Tropius",
+    "number": "001/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/001/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1002,
+    "name": "Grubbin",
+    "number": "002/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/002/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1003,
+    "name": "Fomantis",
+    "number": "003/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/003/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1004,
+    "name": "Lurantis ex",
+    "number": "004/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Dupla",
+    "image": "https://assets.tcgdex.net/pt/me/me05/004/high.webp",
+    "weight": 7,
+    "sellValue": 5
+  },
+  {
+    "id": 1005,
+    "name": "Poltchageist",
+    "number": "005/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/005/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1006,
+    "name": "Sinistcha",
+    "number": "006/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/006/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1007,
+    "name": "Heatran",
+    "number": "007/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/007/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1008,
+    "name": "Mega Delphox ex",
+    "number": "008/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Dupla",
+    "image": "https://assets.tcgdex.net/pt/me/me05/008/high.webp",
+    "weight": 7,
+    "sellValue": 5
+  },
+  {
+    "id": 1009,
+    "name": "Sizzlipede",
+    "number": "009/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/009/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1010,
+    "name": "Centiskorch",
+    "number": "010/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/010/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1011,
+    "name": "Charcadet",
+    "number": "011/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/011/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1012,
+    "name": "Armarouge",
+    "number": "012/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/012/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1013,
+    "name": "Goldeen",
+    "number": "013/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/013/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1014,
+    "name": "Seaking",
+    "number": "014/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/014/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1015,
+    "name": "Wailmer",
+    "number": "015/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/015/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1016,
+    "name": "Wailord ex",
+    "number": "016/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Dupla",
+    "image": "https://assets.tcgdex.net/pt/me/me05/016/high.webp",
+    "weight": 7,
+    "sellValue": 5
+  },
+  {
+    "id": 1017,
+    "name": "Relicanth",
+    "number": "017/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/017/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1018,
+    "name": "Popplio",
+    "number": "018/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/018/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1019,
+    "name": "Brionne",
+    "number": "019/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/019/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1020,
+    "name": "Primarina",
+    "number": "020/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/020/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1021,
+    "name": "Finizen",
+    "number": "021/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/021/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1022,
+    "name": "Palafin",
+    "number": "022/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/022/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1023,
+    "name": "Electrike",
+    "number": "023/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/023/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1024,
+    "name": "Manectric",
+    "number": "024/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/024/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1025,
+    "name": "Charjabug",
+    "number": "025/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/025/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1026,
+    "name": "Vikavolt",
+    "number": "026/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/026/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1027,
+    "name": "Mega Zeraora ex",
+    "number": "027/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Dupla",
+    "image": "https://assets.tcgdex.net/pt/me/me05/027/high.webp",
+    "weight": 7,
+    "sellValue": 5
+  },
+  {
+    "id": 1028,
+    "name": "Miraidon",
+    "number": "028/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/028/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1029,
+    "name": "Slowpoke",
+    "number": "029/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/029/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1030,
+    "name": "Slowbro",
+    "number": "030/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/030/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1031,
+    "name": "Mega Slowbro ex",
+    "number": "031/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Dupla",
+    "image": "https://assets.tcgdex.net/pt/me/me05/031/high.webp",
+    "weight": 7,
+    "sellValue": 5
+  },
+  {
+    "id": 1032,
+    "name": "Jynx",
+    "number": "032/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/032/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1033,
+    "name": "Shuppet",
+    "number": "033/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/033/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1034,
+    "name": "Banette",
+    "number": "034/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/034/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1035,
+    "name": "Spiritomb",
+    "number": "035/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/035/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1036,
+    "name": "Litwick",
+    "number": "036/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/036/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1037,
+    "name": "Lampent",
+    "number": "037/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/037/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1038,
+    "name": "Mega Chandelure ex",
+    "number": "038/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Dupla",
+    "image": "https://assets.tcgdex.net/pt/me/me05/038/high.webp",
+    "weight": 7,
+    "sellValue": 5
+  },
+  {
+    "id": 1039,
+    "name": "Dhelmise",
+    "number": "039/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/039/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1040,
+    "name": "Marshadow",
+    "number": "040/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/040/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1041,
+    "name": "Annihilape",
+    "number": "041/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/041/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1042,
+    "name": "Mankey",
+    "number": "042/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/042/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1043,
+    "name": "Primeape",
+    "number": "043/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/043/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1044,
+    "name": "Cranidos",
+    "number": "044/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/044/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1045,
+    "name": "Rampardos ex",
+    "number": "045/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Dupla",
+    "image": "https://assets.tcgdex.net/pt/me/me05/045/high.webp",
+    "weight": 7,
+    "sellValue": 5
+  },
+  {
+    "id": 1046,
+    "name": "Drilbur",
+    "number": "046/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/046/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1047,
+    "name": "Koraidon",
+    "number": "047/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/047/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1048,
+    "name": "Mega Darkrai ex",
+    "number": "048/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Dupla",
+    "image": "https://assets.tcgdex.net/pt/me/me05/048/high.webp",
+    "weight": 7,
+    "sellValue": 5
+  },
+  {
+    "id": 1049,
+    "name": "Vullaby",
+    "number": "049/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/049/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1050,
+    "name": "Mandibuzz",
+    "number": "050/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/050/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1051,
+    "name": "Inkay",
+    "number": "051/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/051/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1052,
+    "name": "Malamar",
+    "number": "052/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/052/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1053,
+    "name": "Nickit",
+    "number": "053/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/053/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1054,
+    "name": "Thievul",
+    "number": "054/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/054/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1055,
+    "name": "Morpeko ex",
+    "number": "055/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Dupla",
+    "image": "https://assets.tcgdex.net/pt/me/me05/055/high.webp",
+    "weight": 7,
+    "sellValue": 5
+  },
+  {
+    "id": 1056,
+    "name": "Zarude",
+    "number": "056/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/056/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1057,
+    "name": "Maschiff",
+    "number": "057/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/057/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1058,
+    "name": "Mabosstiff",
+    "number": "058/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/058/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1059,
+    "name": "Chi-Yu",
+    "number": "059/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/059/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1060,
+    "name": "Skarmory",
+    "number": "060/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/060/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1061,
+    "name": "Shieldon",
+    "number": "061/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/061/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1062,
+    "name": "Bastiodon",
+    "number": "062/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/062/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1063,
+    "name": "Bronzor",
+    "number": "063/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/063/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1064,
+    "name": "Bronzong",
+    "number": "064/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/064/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1065,
+    "name": "Mega Excadrill ex",
+    "number": "065/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Dupla",
+    "image": "https://assets.tcgdex.net/pt/me/me05/065/high.webp",
+    "weight": 7,
+    "sellValue": 5
+  },
+  {
+    "id": 1066,
+    "name": "Pikipek",
+    "number": "066/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/066/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1067,
+    "name": "Trumbeak",
+    "number": "067/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/067/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1068,
+    "name": "Toucannon",
+    "number": "068/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/068/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1069,
+    "name": "Tipo Nulo",
+    "number": "069/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/069/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1070,
+    "name": "Silvally",
+    "number": "070/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/070/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1071,
+    "name": "Bombirdier",
+    "number": "071/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/071/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1072,
+    "name": "Fóssil Armadura Arcaico",
+    "number": "072/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/072/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1073,
+    "name": "Fóssil Crânio Arcaico",
+    "number": "073/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Comum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/073/high.webp",
+    "weight": 50,
+    "sellValue": 1
+  },
+  {
+    "id": 1074,
+    "name": "Distintivo de Recomeço",
+    "number": "074/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/074/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1075,
+    "name": "Sino Sombrio",
+    "number": "075/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/075/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1076,
+    "name": "Pedreira de Fóssil",
+    "number": "076/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/076/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1077,
+    "name": "Batalha Decisiva do Gladio",
+    "number": "077/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/077/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1078,
+    "name": "Clarita",
+    "number": "078/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/078/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1079,
+    "name": "Jett",
+    "number": "079/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/079/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1080,
+    "name": "Vitalidade da Misty",
+    "number": "080/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/080/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1081,
+    "name": "Recruta do Clã Corrosão",
+    "number": "081/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/081/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1082,
+    "name": "Bombona",
+    "number": "082/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Incomum",
+    "image": "https://assets.tcgdex.net/pt/me/me05/082/high.webp",
+    "weight": 25,
+    "sellValue": 1
+  },
+  {
+    "id": 1083,
+    "name": "Energia Darkness Sombria",
+    "number": "083/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/083/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1084,
+    "name": "Energia Lightning Voltaica",
+    "number": "084/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/084/high.webp",
+    "weight": 15,
+    "sellValue": 3
+  },
+  {
+    "id": 1085,
+    "name": "Fomantis",
+    "number": "085/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/085/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1086,
+    "name": "Armarouge",
+    "number": "086/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/086/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1087,
+    "name": "Goldeen",
+    "number": "087/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/087/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1088,
+    "name": "Primarina",
+    "number": "088/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/088/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1089,
+    "name": "Manectric",
+    "number": "089/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/089/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1090,
+    "name": "Slowbro",
+    "number": "090/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/090/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1091,
+    "name": "Dhelmise",
+    "number": "091/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/091/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1092,
+    "name": "Thievul",
+    "number": "092/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/092/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1093,
+    "name": "Bastiodon",
+    "number": "093/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/093/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1094,
+    "name": "Toucannon",
+    "number": "094/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/094/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1095,
+    "name": "Silvally",
+    "number": "095/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara",
+    "image": "https://assets.tcgdex.net/pt/me/me05/095/high.webp",
+    "weight": 2.5,
+    "sellValue": 7
+  },
+  {
+    "id": 1096,
+    "name": "Lurantis ex",
+    "number": "096/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/096/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1097,
+    "name": "Wailord ex",
+    "number": "097/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/097/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1098,
+    "name": "Mega Zeraora ex",
+    "number": "098/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/098/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1099,
+    "name": "Mega Chandelure ex",
+    "number": "099/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/099/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1100,
+    "name": "Rampardos ex",
+    "number": "100/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/100/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1101,
+    "name": "Mega Darkrai ex",
+    "number": "101/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/101/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1102,
+    "name": "Morpeko ex",
+    "number": "102/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/102/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1103,
+    "name": "Mega Excadrill ex",
+    "number": "103/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/103/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1104,
+    "name": "Bracelete Bravio",
+    "number": "104/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/104/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1105,
+    "name": "Martelo Esmagador",
+    "number": "105/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/105/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1106,
+    "name": "Sino Sombrio",
+    "number": "106/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/106/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1107,
+    "name": "Substituição de Energia",
+    "number": "107/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/107/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1108,
+    "name": "Batalha Decisiva do Gladio",
+    "number": "108/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/108/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1109,
+    "name": "Clarita",
+    "number": "109/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/109/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1110,
+    "name": "Defensor Férreo",
+    "number": "110/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/110/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1111,
+    "name": "Vitalidade da Misty",
+    "number": "111/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/111/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1112,
+    "name": "Recruta do Clã Corrosão",
+    "number": "112/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/112/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1113,
+    "name": "Bombona",
+    "number": "113/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Rara Ultra",
+    "image": "https://assets.tcgdex.net/pt/me/me05/113/high.webp",
+    "weight": 1.5,
+    "sellValue": 10
+  },
+  {
+    "id": 1114,
+    "name": "Mega Zeraora ex",
+    "number": "114/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://assets.tcgdex.net/pt/me/me05/114/high.webp",
+    "weight": 0.5,
+    "sellValue": 18
+  },
+  {
+    "id": 1115,
+    "name": "Mega Chandelure ex",
+    "number": "115/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://assets.tcgdex.net/pt/me/me05/115/high.webp",
+    "weight": 0.5,
+    "sellValue": 18
+  },
+  {
+    "id": 1116,
+    "name": "Mega Darkrai ex",
+    "number": "116/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://assets.tcgdex.net/pt/me/me05/116/high.webp",
+    "weight": 0.5,
+    "sellValue": 18
+  },
+  {
+    "id": 1117,
+    "name": "Morpeko ex",
+    "number": "117/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://assets.tcgdex.net/pt/me/me05/117/high.webp",
+    "weight": 0.5,
+    "sellValue": 18
+  },
+  {
+    "id": 1118,
+    "name": "Batalha Decisiva do Gladio",
+    "number": "118/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://assets.tcgdex.net/pt/me/me05/118/high.webp",
+    "weight": 0.5,
+    "sellValue": 18
+  },
+  {
+    "id": 1119,
+    "name": "Clarita",
+    "number": "119/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Ilustração Rara Especial",
+    "image": "https://assets.tcgdex.net/pt/me/me05/119/high.webp",
+    "weight": 0.5,
+    "sellValue": 18
+  },
+  {
+    "id": 1120,
+    "name": "Mega Darkrai ex",
+    "number": "120/84",
+    "set": "Escuridão Absoluta",
+    "setSlug": "escuridao-absoluta",
+    "rarity": "Mega Hyper Rare",
+    "image": "https://assets.tcgdex.net/pt/me/me05/120/high.webp",
+    "weight": 0.1,
+    "sellValue": 30
   }
 ]
-
