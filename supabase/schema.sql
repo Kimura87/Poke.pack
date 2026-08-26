@@ -118,7 +118,7 @@ begin
   order by -ln(greatest(random(),0.0000001))/weight limit 1;
   if not found then raise exception 'EMPTY_SET'; end if;
   insert into inventory(user_id,card_id,quantity) values(auth.uid(),v_card.id,1)
-  on conflict(user_id,card_id) do update set quantity=inventory.quantity+1;
+  on conflict on constraint inventory_pkey do update set quantity=inventory.quantity+1;
   insert into openings(user_id,card_id,set_id,cost) values(auth.uid(),v_card.id,v_set.id,v_set.booster_price);
   insert into moon_transactions(user_id,amount,reason) values(auth.uid(),-v_set.booster_price,'Abertura: '||v_set.name);
   return query select v_card.id,v_card.name,v_card.number,v_card.rarity,v_card.image_url,v_card.sell_value,v_moons;
@@ -156,7 +156,7 @@ as $$ begin
   if not public.is_admin() then raise exception 'ADMIN_REQUIRED'; end if;
   if p_quantity<=0 then raise exception 'INVALID_QUANTITY'; end if;
   insert into inventory(user_id,card_id,quantity) values(p_user_id,p_card_id,p_quantity)
-  on conflict(user_id,card_id) do update set quantity=inventory.quantity+p_quantity;
+  on conflict on constraint inventory_pkey do update set quantity=inventory.quantity+p_quantity;
 end $$;
 
 create or replace function public.admin_upsert_card(
