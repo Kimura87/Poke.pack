@@ -75,9 +75,9 @@ drop policy if exists profiles_select on public.profiles;
 create policy profiles_select on public.profiles for select to authenticated
 using (id=auth.uid() or public.is_admin());
 drop policy if exists sets_read on public.card_sets;
-create policy sets_read on public.card_sets for select to authenticated using (active or public.is_admin());
+create policy sets_read on public.card_sets for select to anon, authenticated using (active or public.is_admin());
 drop policy if exists cards_read on public.cards;
-create policy cards_read on public.cards for select to authenticated using (active or public.is_admin());
+create policy cards_read on public.cards for select to anon, authenticated using (active or public.is_admin());
 drop policy if exists inventory_read on public.inventory;
 create policy inventory_read on public.inventory for select to authenticated
 using (user_id=auth.uid() or public.is_admin());
@@ -92,8 +92,9 @@ create or replace function public.handle_new_user()
 returns trigger language plpgsql security definer set search_path=public
 as $$
 begin
-  insert into profiles(id,email,display_name)
-  values(new.id,new.email,coalesce(nullif(new.raw_user_meta_data->>'display_name',''),split_part(new.email,'@',1)));
+  insert into profiles(id,email,display_name,role)
+  values(new.id,new.email,coalesce(nullif(new.raw_user_meta_data->>'display_name',''),split_part(new.email,'@',1)),
+    case when exists(select 1 from profiles where role='admin') then 'player' else 'admin' end);
   insert into moon_transactions(user_id,amount,reason) values(new.id,20,'Saldo inicial');
   return new;
 end $$;
@@ -158,10 +159,26 @@ as $$ begin
   on conflict(user_id,card_id) do update set quantity=inventory.quantity+p_quantity;
 end $$;
 
+create or replace function public.admin_upsert_card(
+  p_set_id uuid,p_name text,p_number text,p_rarity text,p_image_url text,p_weight numeric,p_sell_value integer
+) returns bigint language plpgsql security definer set search_path=public
+as $$ declare v_id bigint; begin
+  if not public.is_admin() then raise exception 'ADMIN_REQUIRED'; end if;
+  if p_weight<=0 or p_sell_value<=0 then raise exception 'INVALID_CARD_VALUES'; end if;
+  insert into cards(set_id,name,number,rarity,image_url,weight,sell_value,active)
+  values(p_set_id,trim(p_name),trim(p_number),p_rarity,p_image_url,p_weight,p_sell_value,true)
+  on conflict(set_id,number) do update set name=excluded.name,rarity=excluded.rarity,
+    image_url=excluded.image_url,weight=excluded.weight,sell_value=excluded.sell_value,active=true
+  returning id into v_id;
+  return v_id;
+end $$;
+
 grant execute on function public.open_booster(text) to authenticated;
 grant execute on function public.sell_card(bigint) to authenticated;
 grant execute on function public.admin_adjust_moons(uuid,integer,text) to authenticated;
 grant execute on function public.admin_grant_card(uuid,bigint,integer) to authenticated;
+grant execute on function public.admin_upsert_card(uuid,text,text,text,text,numeric,integer) to authenticated;
+grant select on public.card_sets, public.cards to anon, authenticated;
 
 insert into card_sets(slug,name,code,booster_price,image_url) values
 ('caos-ascendente','Caos Ascendente','ME04',2,'assets/images/booster.svg'),
@@ -170,4 +187,3 @@ on conflict(slug) do update set name=excluded.name,code=excluded.code,booster_pr
 
 -- Depois do seu primeiro cadastro, promova somente o seu email:
 -- update public.profiles set role='admin' where email='SEU_EMAIL_AQUI';
-
