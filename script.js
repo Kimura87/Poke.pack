@@ -10,7 +10,7 @@ function image(card){const img=document.createElement("img");img.src=card.image_
 async function loadCatalog(){
   const [{data:sets,error:setError},{data:cards,error:cardError}]=await Promise.all([db.from("card_sets").select("*").eq("active",true).order("created_at"),db.from("cards").select("*").eq("active",true).order("id")]);
   if(!setError&&!cardError&&sets?.length){state.sets=sets;state.cards=cards||[];}
-  else{const local=await fetch("cards.json").then(r=>r.json());state.cards=local.map(c=>({...c,image_url:c.image,sell_value:c.sellValue}));state.sets=[{id:"local-chaos",slug:"caos-ascendente",name:"Caos Ascendente",code:"ME04",booster_price:2,image_url:"assets/images/booster.svg"},{id:"local-dark",slug:"escuridao-absoluta",name:"Escuridão Absoluta",code:"PBL",booster_price:2,image_url:"assets/images/booster-dark.svg"}];}
+  else{const local=await fetch("cards.json?v=2").then(r=>r.json());state.cards=local.map(c=>({...c,image_url:c.image,sell_value:c.sellValue}));state.sets=[{id:"local-chaos",slug:"caos-ascendente",name:"Caos Ascendente",code:"ME04",booster_price:2,image_url:"assets/images/booster.svg"},{id:"local-dark",slug:"escuridao-absoluta",name:"Escuridão Absoluta",code:"PBL",booster_price:2,image_url:"assets/images/booster-dark.svg"}];}
   renderSets();
 }
 function renderSets(){
