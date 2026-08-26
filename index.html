@@ -1,127 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#08080d">
-  <title>PokéPack — Caos Ascendente</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="rarities.css">
-  <link rel="stylesheet" href="economy.css">
-</head>
-<body>
-  <div class="ambient ambient-one"></div>
-  <div class="ambient ambient-two"></div>
-
-  <header class="navbar">
-    <a class="brand" href="#inicio" aria-label="PokéPack, início">
-      <span class="brand-mark">P</span>
-      <span>Poké<span>Pack</span></span>
-    </a>
-    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
-    <nav class="nav-links" aria-label="Navegação principal">
-      <a class="active" href="#inicio">Início</a>
-      <a href="#colecoes">Coleções</a>
-      <a href="#inventario">Inventário</a>
-      <a href="#historico">Histórico</a>
-    </nav>
-    <div class="wallet" aria-live="polite">
-      <span class="coin-icon">●</span>
-      <span>Moon</span>
-      <strong id="coinsValue">1000</strong>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero" id="inicio">
-      <div class="eyebrow">SIMULADOR DE BOOSTERS</div>
-      <h1>Abra. Descubra.<br><span>Colecione.</span></h1>
-      <p>Entre no caos e revele cartas únicas da primeira coleção PokéPack.</p>
-      <a class="ghost-button" href="#colecoes">Explorar coleção <span>↓</span></a>
-    </section>
-
-    <section class="section collection-section" id="colecoes">
-      <div class="section-heading">
-        <div>
-          <span class="section-kicker">COLEÇÃO EM DESTAQUE</span>
-          <h2>Caos Ascendente</h2>
-        </div>
-        <span class="set-status"><i></i> DISPONÍVEL AGORA</span>
-      </div>
-
-      <article class="collection-card">
-        <div class="booster-stage">
-          <div class="stage-glow"></div>
-          <img src="assets/images/booster.svg" alt="Booster fictício Caos Ascendente">
-        </div>
-        <div class="collection-copy">
-          <span class="collection-code">SÉRIE 01 • POKÉPACK ORIGINAL</span>
-          <h3>Caos<br><span>Ascendente</span></h3>
-          <p>Uma fenda se abriu. Criaturas de energia instável atravessaram e agora esperam por você.</p>
-          <div class="collection-stats">
-            <div><span>CARTAS</span><strong id="cardCount">10</strong></div>
-            <div><span>RARIDADES</span><strong>8</strong></div>
-            <div><span>PREÇO</span><strong><i class="coin-icon">●</i> 2</strong></div>
-          </div>
-          <button class="primary-button" id="openBoosterButton" type="button">
-            <span>ABRIR BOOSTER</span><small>2 MOON</small>
-          </button>
-          <button class="reset-button" id="resetCoinsButton" type="button">↻ Resetar Moon</button>
-          <p class="message" id="statusMessage" role="status"></p>
-        </div>
-      </article>
-    </section>
-
-    <section class="roulette-section" id="rouletteSection" hidden>
-      <div class="roulette-heading">
-        <span>ABRINDO BOOSTER</span>
-        <h2>O que será revelado?</h2>
-      </div>
-      <div class="roulette-window">
-        <div class="center-marker"><span></span></div>
-        <div class="roulette-track" id="rouletteTrack"></div>
-      </div>
-    </section>
-
-    <section class="result-section" id="resultSection" hidden>
-      <div class="result-rays"></div>
-      <span class="section-kicker">VOCÊ ENCONTROU!</span>
-      <h2 id="resultName">Carta</h2>
-      <div class="result-card-wrap" id="resultCardWrap"></div>
-      <div class="result-meta">
-        <span id="resultNumber"></span>
-        <strong id="resultRarity"></strong>
-      </div>
-      <div class="result-actions">
-        <button class="primary-button compact" id="addInventoryButton" type="button">ADICIONAR AO INVENTÁRIO</button>
-        <button class="ghost-button dark" id="openAgainButton" type="button">Abrir novamente</button>
-      </div>
-    </section>
-
-    <section class="section" id="inventario">
-      <div class="section-heading">
-        <div><span class="section-kicker">SUA COLEÇÃO</span><h2>Meu Inventário</h2></div>
-        <span class="count-badge" id="inventoryCount">0 cartas</span>
-      </div>
-      <div class="card-grid" id="inventoryGrid"></div>
-      <div class="empty-state" id="inventoryEmpty">
-        <span>◇</span><h3>Seu inventário está vazio</h3><p>Abra um booster e adicione sua primeira carta.</p>
-      </div>
-    </section>
-
-    <section class="section" id="historico">
-      <div class="section-heading">
-        <div><span class="section-kicker">ÚLTIMAS DESCOBERTAS</span><h2>Histórico</h2></div>
-      </div>
-      <div class="history-list" id="historyList"></div>
-      <div class="empty-state small" id="historyEmpty">
-        <span>◷</span><h3>Nenhuma abertura ainda</h3><p>Suas cartas reveladas aparecerão aqui.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer><span class="brand footer-brand"><span class="brand-mark">P</span> Poké<span>Pack</span></span><p>Projeto educacional • Sem apostas ou dinheiro real</p></footer>
-  <script src="script.js"></script>
-</body>
-</html>
-
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#08080d"><title>PokéPack — Simulador de Boosters</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="rarities.css"><link rel="stylesheet" href="economy.css"><link rel="stylesheet" href="app.css"></head>
+<body><div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<header class="navbar"><a class="brand" href="#inicio"><span class="brand-mark">P</span><span>Poké<span>Pack</span></span></a><button class="menu-toggle" type="button" aria-label="Abrir menu">☰</button><nav class="nav-links"><a class="active" href="#inicio">Início</a><a href="#colecoes">Coleções</a><a href="#inventario">Inventário</a><a href="#historico">Histórico</a><a id="adminNav" href="#admin" hidden>Admin</a></nav><div class="account-actions"><div class="wallet"><span class="coin-icon">●</span><span>Moon</span><strong id="coinsValue">—</strong></div><button class="login-button" id="authButton" type="button">Entrar</button></div></header>
+<main>
+<section class="hero" id="inicio"><div class="eyebrow">SIMULADOR DE BOOSTERS</div><h1>Abra. Descubra.<br><span>Colecione.</span></h1><p>Crie sua conta, receba 20 Moon e monte sua coleção. Cada booster custa 2 Moon.</p><a class="ghost-button" href="#colecoes">Explorar coleções <span>↓</span></a></section>
+<section class="section collection-section" id="colecoes"><div class="section-heading"><div><span class="section-kicker">ESCOLHA SUA COLEÇÃO</span><h2>Boosters disponíveis</h2></div><span class="set-status"><i></i> ONLINE</span></div><div class="sets-grid" id="setsGrid"><p class="loading-copy">Carregando coleções…</p></div><p class="message" id="statusMessage" role="status"></p></section>
+<section class="roulette-section" id="rouletteSection" hidden><div class="roulette-heading"><span>ABRINDO BOOSTER</span><h2>O que será revelado?</h2></div><div class="roulette-window"><div class="center-marker"><span></span></div><div class="roulette-track" id="rouletteTrack"></div></div></section>
+<section class="result-section" id="resultSection" hidden><div class="result-rays"></div><span class="section-kicker">VOCÊ ENCONTROU!</span><h2 id="resultName">Carta</h2><div class="result-card-wrap" id="resultCardWrap"></div><div class="result-meta"><span id="resultNumber"></span><strong id="resultRarity"></strong></div><div class="result-actions"><span class="saved-pill">SALVA NO INVENTÁRIO ✓</span><button class="ghost-button dark" id="openAgainButton" type="button">Abrir novamente</button></div></section>
+<section class="section" id="inventario"><div class="section-heading"><div><span class="section-kicker">SUA COLEÇÃO</span><h2>Meu Inventário</h2></div><span class="count-badge" id="inventoryCount">0 cartas</span></div><div class="card-grid" id="inventoryGrid"></div><div class="empty-state" id="inventoryEmpty"><span>◇</span><h3>Seu inventário está vazio</h3><p>Entre na sua conta e abra um booster.</p></div></section>
+<section class="section" id="historico"><div class="section-heading"><div><span class="section-kicker">ÚLTIMAS DESCOBERTAS</span><h2>Histórico</h2></div></div><div class="history-list" id="historyList"></div><div class="empty-state small" id="historyEmpty"><span>◷</span><h3>Nenhuma abertura ainda</h3><p>Suas cartas reveladas aparecerão aqui.</p></div></section>
+<section class="section admin-section" id="admin" hidden><div class="section-heading"><div><span class="section-kicker">CONTROLE DO JOGO</span><h2>Painel administrativo</h2></div><span class="admin-badge">ADMIN</span></div><div class="admin-grid">
+<form class="panel" id="moonForm"><h3>Ajustar Moon</h3><label>Jogador<select id="moonUser" required></select></label><label>Quantidade<input id="moonAmount" type="number" required placeholder="Ex.: 20 ou -5"></label><label>Motivo<input id="moonReason" required value="Crédito administrativo"></label><button class="primary-button compact">APLICAR</button></form>
+<form class="panel" id="grantForm"><h3>Entregar carta</h3><label>Jogador<select id="grantUser" required></select></label><label>Carta<select id="grantCard" required></select></label><label>Quantidade<input id="grantQuantity" type="number" min="1" value="1" required></label><button class="primary-button compact">ENTREGAR</button></form>
+<form class="panel panel-wide" id="cardForm"><h3>Adicionar ou atualizar carta</h3><div class="form-grid"><label>Coleção<select id="cardSet" required></select></label><label>Número<input id="cardNumber" required placeholder="001/084"></label><label>Nome<input id="cardName" required></label><label>Raridade<select id="cardRarity" required><option>Comum</option><option>Incomum</option><option>Rara</option><option>Rara Dupla</option><option>Ilustração Rara</option><option>Rara Ultra</option><option>Ilustração Rara Especial</option><option>Mega Hyper Rare</option></select></label><label>Imagem (URL)<input id="cardImage" type="url" required></label><label>Peso<input id="cardWeight" type="number" min="0.01" step="0.01" value="50" required></label><label>Valor de venda<input id="cardSell" type="number" min="1" value="1" required></label></div><button class="primary-button compact">SALVAR CARTA</button></form>
+</div><p class="message" id="adminMessage" role="status"></p></section></main>
+<dialog class="auth-dialog" id="authDialog"><button class="dialog-close" id="closeAuth" type="button" aria-label="Fechar">×</button><div id="authLoggedOut"><span class="section-kicker">SUA CONTA</span><h2>Entre no PokéPack</h2><div class="auth-tabs"><button class="active" data-auth-mode="login">Entrar</button><button data-auth-mode="signup">Criar conta</button></div><form id="authForm"><label id="nameLabel" hidden>Nome<input id="authName" autocomplete="name"></label><label>E-mail<input id="authEmail" type="email" autocomplete="email" required></label><label>Senha<input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><button class="primary-button" id="authSubmit">ENTRAR</button></form><p class="message" id="authMessage"></p></div><div id="authLoggedIn" hidden><span class="section-kicker">CONTA CONECTADA</span><h2 id="accountName"></h2><p id="accountEmail"></p><button class="primary-button" id="logoutButton">SAIR DA CONTA</button></div></dialog>
+<footer><span class="brand footer-brand"><span class="brand-mark">P</span> Poké<span>Pack</span></span><p>Projeto educacional • Moons não têm valor monetário</p></footer><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="script.js"></script></body></html>
