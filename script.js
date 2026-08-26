@@ -1,185 +1,57 @@
-const BOOSTER_PRICE = 2;
-const INITIAL_MOONS = 20;
-const STORAGE_KEYS = { coins: "pokepack_moons_v1", inventory: "pokepack_inventory_me04", history: "pokepack_history_me04" };
-const SELL_VALUES = {
-  "Comum": 1, "Incomum": 1, "Rara": 3, "Rara Dupla": 5,
-  "Ilustração Rara": 7, "Rara Ultra": 10,
-  "Ilustração Rara Especial": 18, "Mega Attack Rare": 30
-};
-
-let cards = [];
-let coins = INITIAL_MOONS;
-let inventory = [];
-let history = [];
-let currentWinningCard = null;
-let isOpening = false;
-
-const elements = {
-  coinsValue: document.querySelector("#coinsValue"), cardCount: document.querySelector("#cardCount"),
-  openButton: document.querySelector("#openBoosterButton"), resetButton: document.querySelector("#resetCoinsButton"),
-  status: document.querySelector("#statusMessage"), rouletteSection: document.querySelector("#rouletteSection"),
-  rouletteTrack: document.querySelector("#rouletteTrack"), resultSection: document.querySelector("#resultSection"),
-  resultName: document.querySelector("#resultName"), resultCardWrap: document.querySelector("#resultCardWrap"),
-  resultNumber: document.querySelector("#resultNumber"), resultRarity: document.querySelector("#resultRarity"),
-  addButton: document.querySelector("#addInventoryButton"), againButton: document.querySelector("#openAgainButton"),
-  inventoryGrid: document.querySelector("#inventoryGrid"), inventoryEmpty: document.querySelector("#inventoryEmpty"),
-  inventoryCount: document.querySelector("#inventoryCount"), historyList: document.querySelector("#historyList"),
-  historyEmpty: document.querySelector("#historyEmpty"), menuToggle: document.querySelector(".menu-toggle"), nav: document.querySelector(".nav-links")
-};
-
-async function loadCards() {
-  try {
-    const response = await fetch("cards.json");
-    if (!response.ok) throw new Error("Não foi possível carregar as cartas.");
-    cards = await response.json();
-    elements.cardCount.textContent = cards.length;
-  } catch (error) {
-    elements.status.textContent = "Erro ao carregar cards.json. Execute o projeto em um servidor local.";
-    elements.openButton.disabled = true;
-    console.error(error);
-  }
+const config=window.POKEPACK_CONFIG;
+const db=window.supabase.createClient(config.supabaseUrl,config.supabaseKey);
+const state={session:null,profile:null,sets:[],cards:[],inventory:[],history:[],selectedSet:null,isOpening:false,authMode:"login"};
+const $=selector=>document.querySelector(selector);
+const el={coins:$("#coinsValue"),authButton:$("#authButton"),authDialog:$("#authDialog"),authOut:$("#authLoggedOut"),authIn:$("#authLoggedIn"),authForm:$("#authForm"),authMessage:$("#authMessage"),sets:$("#setsGrid"),status:$("#statusMessage"),roulette:$("#rouletteSection"),track:$("#rouletteTrack"),result:$("#resultSection"),resultName:$("#resultName"),resultWrap:$("#resultCardWrap"),resultNumber:$("#resultNumber"),resultRarity:$("#resultRarity"),inventory:$("#inventoryGrid"),inventoryEmpty:$("#inventoryEmpty"),inventoryCount:$("#inventoryCount"),history:$("#historyList"),historyEmpty:$("#historyEmpty"),admin:$("#admin"),adminNav:$("#adminNav"),adminMessage:$("#adminMessage")};
+const errorMessages={Invalid_login_credentials:"E-mail ou senha incorretos.",User_already_registered:"Este e-mail já está cadastrado.",Email_not_confirmed:"Confirme seu e-mail antes de entrar.",INSUFFICIENT_MOONS:"Moon insuficiente. Venda cartas ou peça créditos ao administrador.",EMPTY_SET:"Esta coleção ainda não possui cartas.",ADMIN_REQUIRED:"Apenas administradores podem fazer isso."};
+function message(error){const raw=error?.message||String(error||"Erro inesperado.");const key=Object.keys(errorMessages).find(k=>raw.includes(k.replaceAll("_"," " ))||raw.includes(k));return errorMessages[key]||raw;}
+function rarityClass(r){return ({"Comum":"rarity-common","Incomum":"rarity-uncommon","Rara":"rarity-rare","Rara Dupla":"rarity-double","Rara Ultra":"rarity-ultra","Ilustração Rara":"rarity-illustration","Ilustração Rara Especial":"rarity-special","Mega Hyper Rare":"rarity-mega","Mega Attack Rare":"rarity-mega"})[r]||"rarity-common";}
+function image(card){const img=document.createElement("img");img.src=card.image_url||card.image;img.alt=card.name;img.loading="lazy";img.onerror=()=>{img.src="assets/cards/card-01.svg"};return img;}
+async function loadCatalog(){
+  const [{data:sets,error:setError},{data:cards,error:cardError}]=await Promise.all([db.from("card_sets").select("*").eq("active",true).order("created_at"),db.from("cards").select("*").eq("active",true).order("id")]);
+  if(!setError&&!cardError&&sets?.length){state.sets=sets;state.cards=cards||[];}
+  else{const local=await fetch("cards.json").then(r=>r.json());state.cards=local.map(c=>({...c,image_url:c.image,sell_value:c.sellValue}));state.sets=[{id:"local-chaos",slug:"caos-ascendente",name:"Caos Ascendente",code:"ME04",booster_price:2,image_url:"assets/images/booster.svg"},{id:"local-dark",slug:"escuridao-absoluta",name:"Escuridão Absoluta",code:"PBL",booster_price:2,image_url:"assets/images/booster-dark.svg"}];}
+  renderSets();
 }
-
-function readStorage(key, fallback) {
-  try { const value = localStorage.getItem(key); return value === null ? fallback : JSON.parse(value); }
-  catch { return fallback; }
+function renderSets(){
+  el.sets.replaceChildren(...state.sets.map((set,index)=>{const count=state.cards.filter(c=>c.set_id===set.id||c.setSlug===set.slug).length;const article=document.createElement("article");article.className="collection-card set-tile";article.innerHTML=`<div class="booster-stage"><div class="stage-glow"></div><img src="${set.image_url||"assets/images/booster.svg"}" alt="Booster ${set.name}"></div><div class="collection-copy"><span class="collection-code">${set.code} • COLEÇÃO COMPLETA</span><h3>${set.name}</h3><p>${index?"Encare a escuridão e encontre cartas poderosas.":"Uma fenda se abriu. Descubra criaturas de energia instável."}</p><div class="collection-stats"><div><span>CARTAS</span><strong>${count}</strong></div><div><span>PREÇO</span><strong><i class="coin-icon">●</i> ${set.booster_price}</strong></div></div><button class="primary-button open-set" type="button"><span>ABRIR BOOSTER</span><small>${set.booster_price} MOON</small></button></div>`;article.querySelector(".open-set").addEventListener("click",()=>openBooster(set));return article;}));
 }
-
-function loadCoins() { coins = Number(readStorage(STORAGE_KEYS.coins, INITIAL_MOONS)); updateCoinsDisplay(); }
-function saveCoins() { localStorage.setItem(STORAGE_KEYS.coins, JSON.stringify(coins)); updateCoinsDisplay(); }
-function updateCoinsDisplay() { elements.coinsValue.textContent = coins.toLocaleString("pt-BR"); }
-function loadInventory() { inventory = readStorage(STORAGE_KEYS.inventory, []); }
-function saveInventory() { localStorage.setItem(STORAGE_KEYS.inventory, JSON.stringify(inventory)); }
-function loadHistory() { history = readStorage(STORAGE_KEYS.history, []); }
-function saveHistory() { localStorage.setItem(STORAGE_KEYS.history, JSON.stringify(history)); }
-
-function getRandomCard(cardList) {
-  const totalWeight = cardList.reduce((sum, card) => sum + card.weight, 0);
-  let draw = Math.random() * totalWeight;
-  for (const card of cardList) { draw -= card.weight; if (draw <= 0) return card; }
-  return cardList.at(-1);
+async function applySession(session){
+  state.session=session;state.profile=null;
+  if(session){const {data,error}=await db.from("profiles").select("*").eq("id",session.user.id).single();if(!error)state.profile=data;}
+  el.coins.textContent=state.profile?state.profile.moons.toLocaleString("pt-BR"):"—";el.authButton.textContent=state.profile?state.profile.display_name:"Entrar";
+  const admin=state.profile?.role==="admin";el.admin.hidden=!admin;el.adminNav.hidden=!admin;
+  if(session){await loadUserData();if(admin)await loadAdmin();}else{state.inventory=[];state.history=[];renderInventory();renderHistory();}
 }
-
-function getRarityClass(rarity) {
-  return {
-    "Comum":"rarity-common", "Incomum":"rarity-uncommon", "Rara":"rarity-rare",
-    "Rara Dupla":"rarity-double", "Rara Ultra":"rarity-ultra",
-    "Ilustração Rara":"rarity-illustration",
-    "Ilustração Rara Especial":"rarity-special",
-    "Mega Attack Rare":"rarity-mega"
-  }[rarity] || "rarity-common";
+async function loadUserData(){
+  const [{data:inventory,error:iError},{data:history,error:hError}]=await Promise.all([
+    db.from("inventory").select("card_id,quantity,cards(*)").eq("user_id",state.session.user.id),
+    db.from("openings").select("id,created_at,cost,cards(name,number,rarity,image_url),card_sets(name)").eq("user_id",state.session.user.id).order("created_at",{ascending:false}).limit(50)
+  ]);
+  if(iError||hError){el.status.textContent=message(iError||hError);return;}state.inventory=inventory||[];state.history=history||[];renderInventory();renderHistory();
 }
-
-function createCardImage(card) {
-  const img = document.createElement("img"); img.src = card.image; img.alt = card.name; img.loading = "lazy"; return img;
+async function openBooster(set){
+  if(state.isOpening)return;if(!state.session){openAuth("login");el.status.textContent="Entre ou crie uma conta para abrir boosters.";return;}
+  state.isOpening=true;state.selectedSet=set;el.status.textContent="";document.querySelectorAll(".open-set").forEach(b=>b.disabled=true);
+  const {data,error}=await db.rpc("open_booster",{p_set_slug:set.slug});
+  if(error){el.status.textContent=message(error);state.isOpening=false;document.querySelectorAll(".open-set").forEach(b=>b.disabled=false);return;}
+  const card=data[0];state.profile.moons=card.moons;el.coins.textContent=card.moons.toLocaleString("pt-BR");el.result.hidden=true;el.roulette.hidden=false;el.roulette.scrollIntoView({behavior:"smooth",block:"center"});
+  await animate(card,set);showResult(card);await loadUserData();state.isOpening=false;document.querySelectorAll(".open-set").forEach(b=>b.disabled=false);
 }
-
-async function openBooster() {
-  if (isOpening || !cards.length) return;
-  if (coins < BOOSTER_PRICE) {
-    elements.status.textContent = "Moon insuficiente. Venda cartas ou use “Resetar Moon” para continuar testando.";
-    elements.openButton.classList.add("shake"); setTimeout(() => elements.openButton.classList.remove("shake"), 400); return;
-  }
-  isOpening = true; coins -= BOOSTER_PRICE; saveCoins();
-  elements.status.textContent = ""; elements.openButton.disabled = true; elements.resultSection.hidden = true;
-  currentWinningCard = getRandomCard(cards);
-  addHistory(currentWinningCard);
-  elements.rouletteSection.hidden = false;
-  elements.rouletteSection.scrollIntoView({ behavior: "smooth", block: "center" });
-  await startRoulette(currentWinningCard);
-  showResult(currentWinningCard); isOpening = false; elements.openButton.disabled = false;
+function animate(winner,set){const pool=state.cards.filter(c=>c.set_id===set.id||c.setSlug===set.slug);const sequence=Array.from({length:34},(_,i)=>i===29?winner:pool[Math.floor(Math.random()*pool.length)]||winner);el.track.replaceChildren(...sequence.map((card,i)=>{const box=document.createElement("div");box.className=`roulette-item ${rarityClass(card.rarity)}${i===29?" winner":""}`;box.append(image(card));return box;}));el.track.style.transition="none";el.track.style.transform="translateX(0)";const width=el.track.firstElementChild.getBoundingClientRect().width,gap=parseFloat(getComputedStyle(el.track).gap),target=innerWidth/2-(29*(width+gap)+width/2);void el.track.offsetWidth;el.track.style.transition="transform 4.2s cubic-bezier(.08,.72,.12,1)";el.track.style.transform=`translateX(${target}px)`;return new Promise(r=>setTimeout(r,4400));}
+function showResult(card){el.roulette.hidden=true;el.result.hidden=false;el.resultName.textContent=card.name;el.resultNumber.textContent=card.number;el.resultRarity.textContent=card.rarity;const wrap=document.createElement("div");wrap.className=`result-card ${rarityClass(card.rarity)}`;wrap.append(image(card));el.resultWrap.replaceChildren(wrap);el.result.scrollIntoView({behavior:"smooth",block:"center"});}
+function renderInventory(){
+  const items=state.inventory.filter(i=>i.cards);el.inventory.replaceChildren(...items.map(item=>{const c=item.cards,a=document.createElement("article");a.className=`inventory-card ${rarityClass(c.rarity)}`;a.innerHTML=`<span class="quantity">×${item.quantity}</span><h3>${c.name}</h3><p>${c.number}</p><p class="rarity-label">${c.rarity}</p>`;a.prepend(image(c));const b=document.createElement("button");b.className="sell-button";b.textContent=`Vender por ${c.sell_value} Moon`;b.onclick=()=>sellCard(c.id,c.name);a.append(b);return a;}));const total=items.reduce((s,i)=>s+i.quantity,0);el.inventoryCount.textContent=`${total} ${total===1?"carta":"cartas"}`;el.inventoryEmpty.hidden=items.length>0;
 }
-
-function startRoulette(winningCard) {
-  const itemCount = 34, winnerIndex = 29, sequence = [];
-  for (let index = 0; index < itemCount; index++) sequence.push(index === winnerIndex ? winningCard : cards[Math.floor(Math.random() * cards.length)]);
-  elements.rouletteTrack.replaceChildren(...sequence.map((card, index) => {
-    const item = document.createElement("div"); item.className = `roulette-item ${getRarityClass(card.rarity)}${index === winnerIndex ? " winner" : ""}`;
-    item.append(createCardImage(card)); return item;
-  }));
-  elements.rouletteTrack.style.transition = "none"; elements.rouletteTrack.style.transform = "translateX(0px)";
-  const cardWidth = elements.rouletteTrack.firstElementChild.getBoundingClientRect().width;
-  const gap = parseFloat(getComputedStyle(elements.rouletteTrack).gap);
-  const viewportCenter = window.innerWidth / 2;
-  const winnerCenter = winnerIndex * (cardWidth + gap) + cardWidth / 2;
-  const target = viewportCenter - winnerCenter;
-  void elements.rouletteTrack.offsetWidth;
-  elements.rouletteTrack.style.transition = "transform 5s cubic-bezier(.08,.72,.12,1)";
-  elements.rouletteTrack.style.transform = `translateX(${target}px)`;
-  return new Promise(resolve => setTimeout(resolve, 5200));
-}
-
-function showResult(card) {
-  elements.rouletteSection.hidden = true; elements.resultSection.hidden = false;
-  elements.resultName.textContent = card.name; elements.resultNumber.textContent = card.number; elements.resultRarity.textContent = card.rarity;
-  const wrapper = document.createElement("div"); wrapper.className = `result-card ${getRarityClass(card.rarity)}`; wrapper.append(createCardImage(card));
-  elements.resultCardWrap.replaceChildren(wrapper); elements.addButton.disabled = false; elements.addButton.textContent = "ADICIONAR AO INVENTÁRIO";
-  elements.resultSection.scrollIntoView({ behavior: "smooth", block: "center" });
-}
-
-function addToInventory() {
-  if (!currentWinningCard || elements.addButton.disabled) return;
-  const existing = inventory.find(item => item.cardId === currentWinningCard.id);
-  if (existing) existing.quantity += 1; else inventory.push({ cardId: currentWinningCard.id, quantity: 1 });
-  saveInventory(); renderInventory(); elements.addButton.disabled = true; elements.addButton.textContent = "ADICIONADA ✓";
-}
-
-function addHistory(card) { history.unshift({ cardId: card.id, date: new Date().toISOString() }); history = history.slice(0, 50); saveHistory(); renderHistory(); }
-
-function renderInventory() {
-  const validItems = inventory.map(item => ({ ...item, card: cards.find(card => card.id === item.cardId) })).filter(item => item.card);
-  elements.inventoryGrid.replaceChildren(...validItems.map(item => {
-    const article = document.createElement("article"); article.className = `inventory-card ${getRarityClass(item.card.rarity)}`;
-    const quantity = document.createElement("span"); quantity.className = "quantity"; quantity.textContent = `×${item.quantity}`;
-    const title = document.createElement("h3"); title.textContent = item.card.name;
-    const number = document.createElement("p"); number.textContent = item.card.number;
-    const rarity = document.createElement("p"); rarity.className = "rarity-label"; rarity.textContent = item.card.rarity;
-    const sellButton = document.createElement("button"); sellButton.className = "sell-button";
-    sellButton.type = "button"; sellButton.textContent = `Vender por ${getSellValue(item.card)} Moon`;
-    sellButton.addEventListener("click", () => sellCard(item.card.id));
-    article.append(createCardImage(item.card), quantity, title, number, rarity, sellButton); return article;
-  }));
-  const total = validItems.reduce((sum, item) => sum + item.quantity, 0);
-  elements.inventoryCount.textContent = `${total} ${total === 1 ? "carta" : "cartas"}`; elements.inventoryEmpty.hidden = validItems.length > 0;
-}
-
-function renderHistory() {
-  const validItems = history.map(entry => ({ ...entry, card: cards.find(card => card.id === entry.cardId) })).filter(entry => entry.card);
-  elements.historyList.replaceChildren(...validItems.map(entry => {
-    const row = document.createElement("article"); row.className = `history-item ${getRarityClass(entry.card.rarity)}`;
-    const dot = document.createElement("i"); dot.className = "history-dot";
-    const path = document.createElement("div"); path.className = "history-path";
-    path.append("Caos Ascendente ", Object.assign(document.createElement("span"), { textContent: "→" }), ` ${entry.card.name} `, Object.assign(document.createElement("strong"), { textContent: `• ${entry.card.rarity}` }));
-    const date = document.createElement("time"); date.className = "history-date"; date.dateTime = entry.date; date.textContent = new Intl.DateTimeFormat("pt-BR", { dateStyle:"short", timeStyle:"short" }).format(new Date(entry.date));
-    row.append(dot, path, date); return row;
-  }));
-  elements.historyEmpty.hidden = validItems.length > 0;
-}
-
-function getSellValue(card) { return SELL_VALUES[card.rarity] || 1; }
-
-function sellCard(cardId) {
-  const itemIndex = inventory.findIndex(item => item.cardId === cardId);
-  if (itemIndex < 0) return;
-  const card = cards.find(card => card.id === cardId);
-  if (!card) return;
-  const saleValue = getSellValue(card);
-  inventory[itemIndex].quantity -= 1;
-  if (inventory[itemIndex].quantity <= 0) inventory.splice(itemIndex, 1);
-  coins += saleValue;
-  saveInventory(); saveCoins(); renderInventory();
-  elements.status.textContent = `${card.name} vendida por ${saleValue} Moon.`;
-}
-
-function resetCoins() { coins = INITIAL_MOONS; saveCoins(); elements.status.textContent = `Moon restaurada para ${INITIAL_MOONS}.`; }
-
-async function initialize() {
-  loadCoins(); loadInventory(); loadHistory(); await loadCards(); renderInventory(); renderHistory();
-  elements.openButton.addEventListener("click", openBooster); elements.resetButton.addEventListener("click", resetCoins);
-  elements.addButton.addEventListener("click", addToInventory); elements.againButton.addEventListener("click", openBooster);
-  elements.menuToggle.addEventListener("click", () => { const open = elements.nav.classList.toggle("open"); elements.menuToggle.setAttribute("aria-expanded", open); });
-  document.querySelectorAll(".nav-links a").forEach(link => link.addEventListener("click", () => elements.nav.classList.remove("open")));
-}
-
-initialize();
-
+async function sellCard(cardId,name){const {data,error}=await db.rpc("sell_card",{p_card_id:cardId});if(error){el.status.textContent=message(error);return;}state.profile.moons=data[0].moons;el.coins.textContent=state.profile.moons.toLocaleString("pt-BR");el.status.textContent=`${name} vendida por ${data[0].sold_value} Moon.`;await loadUserData();}
+function renderHistory(){el.history.replaceChildren(...state.history.map(entry=>{const a=document.createElement("article");a.className=`history-item ${rarityClass(entry.cards?.rarity)}`;const when=new Intl.DateTimeFormat("pt-BR",{dateStyle:"short",timeStyle:"short"}).format(new Date(entry.created_at));a.innerHTML=`<i class="history-dot"></i><div class="history-path">${entry.card_sets?.name||"Coleção"} <span>→</span> ${entry.cards?.name||"Carta"} <strong>• ${entry.cards?.rarity||""}</strong></div><time class="history-date">${when}</time>`;return a;}));el.historyEmpty.hidden=state.history.length>0;}
+function openAuth(mode="login"){state.authMode=mode;syncAuthDialog();el.authDialog.showModal();}
+function syncAuthDialog(){const logged=!!state.session;el.authOut.hidden=logged;el.authIn.hidden=!logged;if(logged){$("#accountName").textContent=state.profile?.display_name||"Treinador";$("#accountEmail").textContent=state.session.user.email;return;}document.querySelectorAll("[data-auth-mode]").forEach(b=>b.classList.toggle("active",b.dataset.authMode===state.authMode));$("#nameLabel").hidden=state.authMode!=="signup";$("#authSubmit").textContent=state.authMode==="signup"?"CRIAR CONTA":"ENTRAR";$("#authPassword").autocomplete=state.authMode==="signup"?"new-password":"current-password";el.authMessage.textContent="";}
+async function submitAuth(event){event.preventDefault();const email=$("#authEmail").value.trim(),password=$("#authPassword").value;el.authMessage.textContent="Aguarde…";const result=state.authMode==="signup"?await db.auth.signUp({email,password,options:{data:{display_name:$("#authName").value.trim()||email.split("@")[0]}}}):await db.auth.signInWithPassword({email,password});if(result.error){el.authMessage.textContent=message(result.error);return;}if(state.authMode==="signup"&&!result.data.session){el.authMessage.textContent="Conta criada! Confira seu e-mail para confirmar o cadastro.";return;}el.authDialog.close();}
+async function loadAdmin(){const [{data:users,error},{data:cards}]=await Promise.all([db.from("profiles").select("id,email,display_name,moons,role").order("created_at"),db.from("cards").select("id,name,number,rarity").order("name")]);if(error){el.adminMessage.textContent=message(error);return;}const options=users.map(u=>`<option value="${u.id}">${u.display_name} — ${u.email} (${u.moons} Moon)</option>`).join("");$("#moonUser").innerHTML=options;$("#grantUser").innerHTML=options;$("#grantCard").innerHTML=(cards||[]).map(c=>`<option value="${c.id}">${c.name} • ${c.number}</option>`).join("");$("#cardSet").innerHTML=state.sets.map(s=>`<option value="${s.id}">${s.name}</option>`).join("");}
+async function adminMoon(e){e.preventDefault();const {error}=await db.rpc("admin_adjust_moons",{p_user_id:$("#moonUser").value,p_amount:Number($("#moonAmount").value),p_reason:$("#moonReason").value});el.adminMessage.textContent=error?message(error):"Saldo atualizado com sucesso.";if(!error){e.target.reset();await loadAdmin();await applySession(state.session);}}
+async function adminGrant(e){e.preventDefault();const {error}=await db.rpc("admin_grant_card",{p_user_id:$("#grantUser").value,p_card_id:Number($("#grantCard").value),p_quantity:Number($("#grantQuantity").value)});el.adminMessage.textContent=error?message(error):"Carta entregue com sucesso.";if(!error){await loadAdmin();await loadUserData();}}
+async function adminCard(e){e.preventDefault();const payload={p_set_id:$("#cardSet").value,p_name:$("#cardName").value,p_number:$("#cardNumber").value,p_rarity:$("#cardRarity").value,p_image_url:$("#cardImage").value,p_weight:Number($("#cardWeight").value),p_sell_value:Number($("#cardSell").value)};const {error}=await db.rpc("admin_upsert_card",payload);el.adminMessage.textContent=error?message(error):"Carta salva com sucesso.";if(!error){e.target.reset();await loadCatalog();await loadAdmin();}}
+function bind(){el.authButton.onclick=()=>openAuth();$("#closeAuth").onclick=()=>el.authDialog.close();el.authDialog.addEventListener("click",e=>{if(e.target===el.authDialog)el.authDialog.close()});document.querySelectorAll("[data-auth-mode]").forEach(b=>b.onclick=()=>{state.authMode=b.dataset.authMode;syncAuthDialog()});el.authForm.onsubmit=submitAuth;$("#logoutButton").onclick=async()=>{await db.auth.signOut();el.authDialog.close()};$("#openAgainButton").onclick=()=>state.selectedSet&&openBooster(state.selectedSet);$("#moonForm").onsubmit=adminMoon;$("#grantForm").onsubmit=adminGrant;$("#cardForm").onsubmit=adminCard;$(".menu-toggle").onclick=()=>$(".nav-links").classList.toggle("open");}
+async function init(){bind();await loadCatalog();const {data}=await db.auth.getSession();await applySession(data.session);db.auth.onAuthStateChange((_event,session)=>setTimeout(()=>applySession(session),0));}
+init().catch(error=>{console.error(error);el.status.textContent="Não foi possível iniciar o PokéPack: "+message(error);});
